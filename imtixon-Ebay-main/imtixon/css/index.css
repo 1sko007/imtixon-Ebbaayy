@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white; /*Цвет скролла*/
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px; /*Закругление ползунка*/
+  background-color: #3665F3; /*Цвет ползунка*/
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 8px; /*Толщина скролла*/
+  height: 8px;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+.container--md {
+  max-width: 1350px;
+}
+.container--ld {
+  max-width: 1150px;
+}/*# sourceMappingURL=index.css.map */

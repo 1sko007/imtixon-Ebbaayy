@@ -1,0 +1,82 @@
+.singil_product_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    img{
+        width: 690px;
+        height: 600px;
+        object-fit: fill;
+    }
+}
+.swiperMyStyle{
+    width: 55%;
+}
+// .swiper-slide{
+//     : 700px !important;
+// }
+.singil_list{
+    list-style: none;
+    color: #191919;
+    width: 35% !important;
+    h3{
+        font-family: "ABeeZee";
+        font-size: 18px;
+    }
+}
+.singil_line{
+    display: block;
+    width: 100%;
+    background-color: #cccccc;
+    height: 2px;
+    margin: 15px 0;
+}
+.singil_iytem{
+    h2{
+        font-family: "ABeeZee";
+        font-size: 16px;
+        padding: 20px 0;
+    }
+}
+.singil_foter_iytem{
+    display: flex;
+    gap: 60px;
+    h2{
+        font-family: "ABeeZee";
+        font-size: 16px;
+        span{
+            font-size: 25px !important;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        button{
+            cursor: pointer;
+        }
+        .BuyIt{
+            padding: 15px 80px;
+            border-radius: 50px;
+            color: #fff;
+            border: none;
+            background-color: #0053A0;
+        }
+        .AddTo{
+            padding: 15px 70px;
+            border-radius: 50px;
+            color: #fff;
+            border: none;
+            background-color: #3498CA;
+        }
+        .like{
+            padding: 15px 70px;
+            border-radius: 50px;
+            color:#3665F3;
+            border: 1px solid  #3665F3;
+            background-color: #fff;
+        }
+    }
+}

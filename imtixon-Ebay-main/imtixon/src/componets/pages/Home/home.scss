@@ -1,0 +1,233 @@
+.brends__list{
+    background-color: #FEB786;
+    display: flex;
+    justify-content: center;
+}
+.brands_iytem_text{
+    list-style: none;
+    width: 292px;
+    padding: 20px;
+    margin-right: 40px;
+    h2{
+        font-family: "ABeeZee", italic;
+        color:  #5C1B05;
+        font-size: 35px;
+        font-style: italic;
+    }
+    p{
+        font-family: "ABeeZee";
+        color:  #5C1B05;
+        font-size: 17px;
+        padding: 12px 0 20px;
+    }
+    a{
+        text-decoration: none;
+        color:  #5C1B05;
+        font-family: "ABeeZee";
+        border: solid 1px #5C1B05;
+        font-size: 16px;
+        padding: 10px 15px;
+        transition: all .4s ;
+
+        &:hover{
+            background-color: #5C1B05;
+            color: #fff;
+        }
+    }
+}
+.brends__iytem{
+    list-style: none;
+}
+
+.container_style{
+    margin: 50px 0;
+}
+.mode__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mode__iytem_text{
+    list-style: none;
+    align-items: center;
+    width: 420px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    padding: 20px 0 50px 20px;
+    h2{
+        padding: 0 0 15px;
+        font-family: "ABeeZee";
+        font-size: 11px;
+        color: #707070;
+    }
+    h4{
+        font-family: "ABeeZee";
+        font-size: 20px;
+        color: #191919;
+        font-style: italic;
+
+    }
+    p{
+        padding: 15px 0 25px;
+        font-family: "ABeeZee";
+        font-size: 14px;
+        color: #707070;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        font-family: "ABeeZee";
+        padding: 10px 20px;
+        border: 1px solid #000;
+        transition: all .4s ;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
+
+.product_all_list_link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h2{
+        font-family: "ABeeZee";
+        color: #191919;
+        font-style: italic;
+        font-size: 25px;
+    }
+    li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .product_all_link{
+        text-decoration: none;
+        color: #191919;
+        font-size: 20px;
+        font-family: "ABeeZee";
+        i{
+            padding-top: 13px !important;
+        }
+    }
+}
+.swiper-pagination{
+    margin-top: 20px !important;
+}
+.mode__iytem{
+    list-style: none;
+    padding-right: 15px;
+}
+
+.product_wrpper{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    gap: 20px; 
+}
+.product_link{
+    text-decoration: none;
+}
+.product_list{
+    list-style: none;
+    text-align: center;
+    width: 150px;    
+    padding: 10px 0;
+    i{
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        left: 10px;
+        top: 7px;
+    }
+    span{
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 7px;
+        img{
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+        }
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #cccccc;
+        object-fit: fill;
+    }
+    h2{
+        font-family: "ABeeZee";
+        color: #191919;
+        font-size: 14px;
+    }
+    &:hover{
+        background-color: #cccccc77; 
+        span{
+            img{
+                background-color: #cccccc77;
+            }
+        }
+    }
+}
+
+.footer_line{
+    display: block;
+    margin:  0 auto;
+    width: 100%;
+    height: 2px;
+    background-color: #CCCCCC;
+    color: #000;
+}
+.footer__wrapp{
+    margin-top: 70px !important;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    gap: 80px;
+}
+.foter_list{
+    list-style: none;
+    h2{
+        font-family: "ABeeZee";
+        font-style: italic;
+        font-size: 15px;
+        color: #707070;
+        padding: 10px 0 0 0 ;
+        transition: all .4s;
+        cursor: pointer;
+        display: flex;
+        gap: 5px;
+        &:hover{
+            color: #000;
+        }
+    }
+    h3{
+        font-family: "ABeeZee";
+        font-style: italic;
+        font-size: 18px;
+        color: #707070;
+        font-weight: 700;
+        padding: 8px 0;
+    }
+}
+.foter_info_style{
+    margin: 70px 0 30px;   
+    text-align: center;
+    h2{
+        color: #000;
+        font-family: "ABeeZee";  
+        font-size: 11px;
+    }
+    span{
+        color: #707070;
+        text-decoration: solid #707070 !important;
+    }
+}

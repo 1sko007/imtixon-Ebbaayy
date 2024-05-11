@@ -1,0 +1,25 @@
+.product_all_list {
+  list-style: none;
+  text-align: center;
+  width: 150px;
+}
+.product_all_list img {
+  width: 150px;
+  height: 150px;
+  background-color: #cccccc;
+}
+.product_all_list h2 {
+  font-family: "ABeeZee";
+  color: #191919;
+  font-size: 14px;
+  height: 50px;
+}
+
+.product_all_wrpper {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=product.css.map */

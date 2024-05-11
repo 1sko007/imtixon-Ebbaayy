@@ -1,0 +1,49 @@
+.product_all_list{
+    list-style: none;
+    text-align: center;
+    span{
+        cursor: pointer;
+        // position: absolute;
+        right: 20px;
+        top: 7px;
+        img{
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+        }
+    }
+    img{
+        width: 270px;
+        height: 270px;
+        background-color: #cccccc;
+    }
+    h2{
+        font-family: "ABeeZee";
+        color: #191919;
+        font-size: 14px;
+        height: 60px;
+    }
+}
+.icon_style{
+    display: flex;
+    justify-content: space-between;
+    span{
+        img{
+            width: 20px;
+            height: 20px;
+            background-color: #ccc;
+        }
+    }
+    i{
+        cursor: pointer;
+    }
+}
+.product_all_wrpper{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
